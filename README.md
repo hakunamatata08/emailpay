@@ -39,4 +39,13 @@ Fast, simple, and borderless payments powered by blockchain.
 ### Installation
 1. Clone the repo:
    ```bash
-   git clone https://github.com/yourusername/emailpay.git
+   https://github.com/hakunamatata08/emailpay
+
+2. Install dependencies:
+   ```bash
+   cd emailpay
+   npm install
+
+3. Run the app:
+   ```bash
+   npm run dev
