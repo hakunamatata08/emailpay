@@ -1,5 +1,7 @@
 # EmailPay ✉️💸
 ![image](https://github.com/user-attachments/assets/e2ef525a-3524-4fcf-a990-1d059dc24e17)
+**Demo Video**
+https://www.youtube.com/watch?v=1LHI6z_zvc4
 
 **Send crypto as easily as sending an email.**  
 Fast, simple, and borderless payments powered by blockchain.
