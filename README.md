@@ -27,10 +27,23 @@ EmailPay uses EIP-2612 permit-based transfers, enabling gasless transactions for
 
 ## 🚀 How It Works
 1. **Sign In**: Log in with your email to access your non custodial crypto wallet.
-2. **Top Up**: Deposit crypto into your wallet. Currently, only PYUSD is supported. You can topup PYUSD via the 'Topup PYUSD' option on Dashboard page.
-3. **Compose Cryptomail**: Enter recipient emails (To/Cc/Bcc), amount, and currency ( currently only PYUSD on Ethereum Sepolia is supported, EmailPay can be configured to set up on any EVM compatible chain).
-4. **Send**: Transactions are processed instantly with no gas fees.
-5. **Recipient Claims**: Recipients get an email with transfer details confirming they've recieved the crypto. When they'll log in to the app, they can see their crypto.
+   ![image](https://github.com/user-attachments/assets/8c5aa11f-80a9-4a92-a1c4-b5f59e0d04d2)
+
+3. **Top Up**: Deposit crypto into your wallet. Currently, only PYUSD is supported. You can topup PYUSD via the 'Topup PYUSD' option on Dashboard page. PYUSD arrives in 1-2 minutes in your wallet.
+   ![image](https://github.com/user-attachments/assets/1a662a04-94e2-4411-965d-c0795500063f)
+   NOTE : You can only request 1 time per account in 24 hour period.
+   
+5. **Compose Cryptomail**: Enter recipient emails (To/Cc/Bcc), amount, and currency ( currently only PYUSD on Ethereum Sepolia is supported, EmailPay can be configured to set up on any EVM compatible chain).
+   ![image](https://github.com/user-attachments/assets/f3414902-7587-4c11-b56f-46dbe67bf46d)
+
+7. **Send**: Transactions are processed instantly with no gas fees.
+   ![image](https://github.com/user-attachments/assets/52f93645-2b84-47d8-b1d8-956b250dd827)
+   ![image](https://github.com/user-attachments/assets/5d6cce27-44df-4103-b616-946857740f84)
+   ![image](https://github.com/user-attachments/assets/390c5818-357f-446a-a8b5-ad2967f1c00e)
+
+9. **Recipient Claims**: Recipients get an email with transfer details confirming they've recieved the crypto. When they'll log in to the app, they can see crypto in their wallet as well as the in-app notification about the transaction.
+    ![WhatsApp Image 2025-04-15 at 11 05 08 PM](https://github.com/user-attachments/assets/fee0e2c9-66d2-4bdb-9369-a838e6461470)
+   ![WhatsApp Image 2025-04-15 at 11 05 45 PM](https://github.com/user-attachments/assets/5576966f-b24e-43bd-b839-16c835096579)
 
 ## 📖 Use Cases
 - **Crypto Payouts**: Pay freelancers, employees & gig workers with no wallet setup needed – just an email. Faster & cheaper than bank transfer.
