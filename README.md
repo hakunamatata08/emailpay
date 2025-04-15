@@ -7,6 +7,14 @@ https://www.youtube.com/watch?v=1LHI6z_zvc4
 **Send crypto as easily as sending an email.**  
 Fast, simple, and borderless payments powered by blockchain.
 
+## The Problem
+Sending crypto is still too technical and intimidating for everyday users.
+People need to remember long wallet addresses, worry about gas fees, and understand blockchain jargon — all of which create friction and limit mainstream adoption.
+
+## Our Solution
+We’re building EmailPay, a crypto payment platform that lets users send digital assets to any email address—no wallet address or crypto knowledge required. The sender simply logs in with their email, tops up their wallet with supported tokens (currently PYUSD on Sepolia), and composes a “cryptomail” just like a regular email. They can enter recipients in To, Cc, or Bcc fields, specify the amount, and send. The recipient then receives an email notification with transaction details and can claim their funds upon logging into the platform. This creates a seamless experience that mimics traditional email workflows while abstracting away the complexities of crypto transactions.
+
+EmailPay uses EIP-2612 permit-based transfers, enabling gasless transactions for the sender, which further reduces friction. It also leverages Web3Auth for email-based login and wallet creation, making onboarding simple and secure. Under the hood, we're using Ethereum smart contracts to handle the transfers and Nodemailer to send real-time notifications. By combining the simplicity of email with the power of blockchain, EmailPay enables fast, secure, and borderless payments for individuals, businesses, and nonprofits alike — driving crypto adoption through intuitive UX.
 
 ## 🌟 Key Features
 - **Email-Based Transfers**: Send crypto to any email address. No blockchain address required.
