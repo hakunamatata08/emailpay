@@ -1327,7 +1327,7 @@ export default function TransactionsPage() {
               <div>
                 <Switch
                   checked={useGasless}
-                  onCheckedChange={setUseGasless}
+                  // onCheckedChange={setUseGasless}
                   aria-label="Toggle gasless transactions"
                 />
               </div>

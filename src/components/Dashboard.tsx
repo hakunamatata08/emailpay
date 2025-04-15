@@ -1217,7 +1217,7 @@ export default function Dashboard() {
                     <div>
                       <Switch
                         checked={useGasless}
-                        onCheckedChange={setUseGasless}
+                        // onCheckedChange={setUseGasless}
                         aria-label="Toggle gasless transactions"
                       />
                     </div>

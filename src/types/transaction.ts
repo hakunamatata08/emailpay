@@ -42,7 +42,7 @@ export interface Transaction {
   tokenType: string; // e.g., "PYUSD"
   network: string; // e.g., "Ethereum Sepolia"
   message?: string; // Made message optional
-  status: 'pending' | 'processing' | 'completed' | 'failed'; // Updated status options
+  status: 'pending' | 'processing' | 'completed' | 'failed' | 'draft'; // Updated status options
   txHash?: string; // transaction hash once submitted to blockchain
   createdAt: string; // Changed from Date to string
   updatedAt: string;

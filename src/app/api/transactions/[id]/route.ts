@@ -7,10 +7,10 @@ import { executePermitTransaction, executeGaslessTransfer } from '@/lib/gaslessU
 // Get a single transaction by ID
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: { id: string } }
 ) {
   try {
-    const transactionId = params.id;
+    const { id: transactionId } = await context.params;
     const userAddress = request.nextUrl.searchParams.get('userAddress');
 
     console.log(`API: GET /api/transactions/${transactionId} - Received request for userAddress`,
@@ -63,10 +63,10 @@ export async function GET(
 // Update a transaction by ID (PATCH method for partial updates)
 export async function PATCH(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  context: { params: { id: string } }
 ) {
   try {
-    const transactionId = params.id;
+    const { id: transactionId } = await context.params;
     const requestData = await request.json();
 
     // Validate the transaction ID format
